@@ -38,11 +38,11 @@ const App: () => React$Node = () => {
         <Text style={{backgroundColor:'lightblue', height:30, width:300, textAlign:'center', textAlignVertical:'center', color:'white', fontSize:18}}>Modal</Text>
         <TextInput
          style={{height: 40, width:300, borderColor: 'gray', borderWidth: 1, marginTop:10}}
-          value={'textInput'}
+         placeholder = {'Enter the text here'}
         />
          <TextInput
-          value={'textInput'}
           style={{marginTop:350, height: 40, width: 300, borderColor: 'gray', borderWidth: 1}}
+          placeholder = {'Enter the text here'}
         />
         </View>
         </View>
